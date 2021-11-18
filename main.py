@@ -90,6 +90,8 @@ while more_search:
 	print()
 	reply = input("Search for more word? Type 'y' or 'n': ").lower()
 	if reply == "n":
+		print()
 		print("Thank you for using our software.\nFor your feedback and review, email chinwej.obiageri@gmail.com")
 		more_search = False
-	clear()
+	else:
+		clear()
